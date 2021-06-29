@@ -4,7 +4,7 @@
 
 ```
 # Go to insomina-inso directory
-cd <path to inso: typically ./node_modules/insomnia-inso
+cd <path to inso: typically ./node_modules/insomnia-inso>
 
 # Re-package inso
 pkg -t node12-linux -o inso .
