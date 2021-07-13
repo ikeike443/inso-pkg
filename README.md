@@ -6,12 +6,12 @@
 cd <path to inso: typically ./node_modules/insomnia-inso>
 
 # Add below to Package.json of insomnia-inso (temporarily for now)
-To make sure every node_modules will be included when compiled
-  ...
+# To make sure every node_modules will be included when compiled
+
   "pkg": {
         "assets": "node_modules/**/*"
   },
-  ...
+
 
 # Re-package inso
 pkg -t node12-linux -o inso .
